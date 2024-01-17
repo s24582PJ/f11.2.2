@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+input {
+  padding: 0.5em;
+  margin-right: 0.5em;
+}
+
+button {
+  padding: 0.5em;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}
+
+.meal-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.meal-card {
+  width: 200px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.meal-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.meal-card p {
+  font-weight: bold;
+}
+
+.meal-description {
+  margin-top: 10px;
+}
